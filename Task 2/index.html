@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pixel Power</title>
+    <style> 
+    .main{
+        margin: 20px auto 0 auto;
+            width: 80%;
+           
+        }
+        .pixel{
+        float:left;
+        width:25%;
+        height:50px;
+        background-color: white;
+        line-height: 50px;
+        text-align: center;
+        
+        }
+        .pixel img{
+            width: 50%;
+            height: auto;
+            margin-right: auto;
+            
+        }
+        .lis{
+            float:left;
+            width:50%;
+            height:50px;
+            background-color: white;
+            line-height: 50px;
+            text-align: center;
+        border:2px solid black;
+        border-radius: 30px;
+      box-sizing: border-box;
+      
+     
+        }
+        .contact{
+            float:left;
+            width:25%;
+            height:45px;
+            background-color: white;
+            line-height: 45px;
+            text-align: center;
+           
+        }
+        .btn{
+            border-radius: 200px;
+            background-color: black;
+            padding: 8px 10px;
+           width: 40%;
+           color: white;
+            
+        }
+.menu-link{
+    background-color: #ff8632;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+        a.menu-link:hover {
+    background-color: #f27419;
+}
+
+        a{
+            padding: 6px 8px;
+            margin: 0 10px;
+            text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-family: 'Roboto';
+
+        }
+        .content-sec {
+            background-color: rgb(246, 246, 217);
+            padding: 40px 0;
+            width: 100%;
+            overflow: hidden;
+            margin-top: 10px; 
+}
+
+.content-text {
+    
+          float: left;
+            width: 40%; 
+            padding-right: 50px;
+            padding-top: 40px;
+
+}
+
+.hero{
+           float: left;
+            width: 35%;
+            height: auto;
+            border-radius: 30px;
+            margin-left: 150px;
+            object-fit: cover;
+
+}
+.content-text h1{
+    font-family: 'Roboto', sans-serif;
+        font-size: 50px; 
+            font-weight: 700;
+            line-height: 1.2;
+           margin-top: 60px;
+            margin-bottom: 10px; 
+            text-align: center;
+           
+            
+}
+.content-text p{
+      font-family: 'Roboto', sans-serif;
+          font-size: 18px;
+            margin-top: 0px;
+            line-height: 1.6;
+            max-width: 400px;
+            margin: 0 auto;
+           
+        
+   
+}
+.content-text button{
+background-color: #ff8632;
+border: none;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 15%;
+    border-radius: 20px;
+    color: white;
+}
+.content-text button:hover{
+    background-color: #f57214;
+   
+}
+   /* Quote Section */
+   .quote-section {
+    background-color: black;
+        color: white;
+        max-width:1900px;
+        margin: 0 auto;
+        padding: 40px 20px 30px 20px;
+        text-align: center;
+        font-size: 35px;
+        line-height: 1.6;
+        font-family: 'Roboto', sans-serif;
+    }
+    .quote-section p {
+        margin: 0 auto;
+        max-width: 900px;
+        font-weight: lighter; 
+    }
+
+    .map-form-section {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #f0f2d7;
+        }
+
+        .map-container,
+        .contact-form {
+            flex: 1 1 50%;
+            box-sizing: border-box;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+    form.contact-form {
+        float: left;
+        width: 50%;
+        background-color: #f0f2d7;
+        padding: 40px 30px 40px 30px;
+        font-family: 'Roboto', sans-serif;
+        box-sizing: border-box;
+        display: block;
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    form.contact-form h2 {
+        font-weight: 700;
+        font-size: 25px;
+        margin-bottom: 12px;
+        margin-top: 0;
+    }
+    form.contact-form p {
+        margin-bottom: 12px;
+    }
+    form.contact-form label {
+        font-weight: 700;
+        font-size: 15px;
+        display: block;
+        margin: 10px 0 5px 0;
+    }
+    form.contact-form input,
+    form.contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1.5px solid black;
+            box-sizing: border-box;
+    }
+    form.contact-form textarea {
+        height: 40px;
+    }
+    form.contact-form button {
+        background-color: #ef873d;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 10px 20px;
+        font-weight: 600;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 8px;
+        display: inline-block;
+        transition: background-color 0.3s;
+    }
+    form.contact-form button:hover {
+        background-color: #d65a0e;
+    }
+    footer {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        padding: 20px 10px;
+        user-select: none;
+        margin-top: 0;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+.main::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    </style>
+</head>
+<body>
+    <!-- Header Portion-->
+   <header> 
+    <div class="main">
+    <div class="pixel"><img src="./assests/logo.png" class="img"></img></div>
+    <div class="lis">  <a href="#" class="menu-link">Home</a>
+        <a href="#">Lecture</a>
+        <a href="#">Labs</a>
+        <a href="#">Student Work</a>
+        <a href="#">Resources</a>
+        <a href="#">Blogs</a>
+    </div>
+    <div class="contact"><button class="btn"> Contact</button></div>
+    </div>
+   </header>
+
+<!--Content Portion includes Content and Image-->
+   <section class="content-sec">
+    
+    <div class="content-text">
+        <h1>Welcome to Our<br> Class Web Portal</h1>
+        <p>This site is the part of our practical learning journey  in web
+             development.Here, Students learn HTML, CSS (includingfloats), forms
+             and responsive design by building and contributing to this 
+            platform
+        </p><button type="button">Start Exploring</button>
+    </div>
+    <div> <img src="./assests/hero.jpg" alt=" Hero" class="hero"></div>
+   </section>
+
+   <section aria-label="Quote about learning journey" class="quote-section">
+    <p>
+     This isn’t just a website — it’s a learning journey. Here,
+     students document what they learn and build.
+    </p>
+   </section>
+   <!--Map and Form Section-->
+   <section aria-label="Map and contact form section" class="map-form-section clearfix">
+    <div aria-label="Map showing Department of Software Engineering location" class="map-container">
+     <iframe allowfullscreen="" loading="lazy" src="https://maps.google.com/maps?q=Department+of+Software+Engineering+Ajk+University&amp;layer=c&amp;output=embed" title="Map showing Department of Software Engineering UAJK location">
+     </iframe>
+    </div>
+    <form action="#" aria-label="Contact form to get in touch with the instructor" class="contact-form" method="POST">
+     <h2>
+      Get in Touch with the Instructor
+     </h2>
+     <p>
+      Have questions about lectures, labs, or assignments? 
+      Use the form<br>below to contact your instructor or TA. We’re here to support your<br>
+     learning journey.
+     </p>
+     <label for="name">
+      Name:
+     </label>
+     <input id="name" name="name" required="" type="text"/>
+     <label for="email">
+      Email:
+     </label>
+     <input id="email" name="email" required="" type="email"/>
+     <label for="tel">
+      Tel:
+     </label>
+     <input id="tel" name="tel" type="tel"/>
+
+     <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4"></textarea>
+
+     <button type="submit">
+      Submit
+     </button>
+    </form>
+   </section>
+   <footer role="contentinfo">
+    All rights reserverd ©2025
+
+</body>
+</html>
