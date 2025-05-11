@@ -1,0 +1,274 @@
+
+  body {
+    background-color: #141414;
+    color: white;
+    font-family: Helvetica, sans-serif;
+  }
+/* Grid Layout for Header */
+.header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #141414;
+    color: white;
+  }
+  
+  /* Left section using grid */
+  .header-left {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    column-gap: 15px;
+  }
+  
+  /* Netflix Logo */
+  .logo {
+    height: 30px;
+  }
+  
+  /* Navbar using flex to keep links together */
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+   
+    font-size: 0.9rem;
+  }
+  
+  .nav a:hover {
+    text-decoration: none;
+  }
+  nav a.active {
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  /* Right section using grid */
+  .header-right {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .user-icon {
+    height: 32px;
+    width: 32px;
+    border-radius: 4px;
+  }
+  
+  /* Notification Badge */
+  .notification {
+    position: relative;
+  }
+  
+  .badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: rgb(189, 34, 34);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 2px;
+    border-radius: 50%;
+  }
+  
+  .user-icon {
+    height: 32px;
+    width: 32px;
+    border-radius: 4px;
+  }
+  main {
+    padding: 1rem;
+  }
+  section {
+    margin-bottom: 2rem;
+  }
+  h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .arrow-wrapper {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .arrow-wrapper i {
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow-wrapper .hover-text {
+    display: none;
+    position: absolute;
+    right: 100%;
+    left: 25px; /* Adjust spacing */
+    top: 50%;
+    transform: translateY(-50%);
+   
+    color: rgb(59, 221, 41);
+    padding: 4px 8px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 12px;
+    margin-right: 0.5rem;
+  }
+  
+  .arrow-wrapper:hover i {
+    transform: translateX(5px); /* Slight right shift */
+  }
+  
+  .arrow-wrapper:hover .hover-text{
+    display:inline-block;
+  }
+
+  /* GRID Section*/
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+
+.thumbnail {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+.thumbnail img {
+    width: 100%;           
+    height: 100%;        
+    object-fit: cover;     
+    border-radius: 4px;
+}
+
+
+ 
+  .progress {
+    height: 5px;
+    border-radius: 2px;
+    margin-top: 5px;
+  }
+  .blue {
+    background-color: #0063E5;
+  }
+  .red {
+    background-color: #B91C1C;
+  }
+  .gray {
+    background-color: #666;
+  }
+  .short {
+    width: 40%;
+  }
+  .rest {
+    width: 60%;
+    margin-top: -5px;
+  }
+  .badge-wrap {
+    position: relative;
+  }
+  .badge.top-left {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: red;
+    font-size: 0.6rem;
+    padding: 2px 4px;
+    border-radius: 2px;
+  }
+  .badge.top-right {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    font-size: 0.6rem;
+    padding: 2px 4px;
+    border-radius: 2px;
+  }
+  .blue-icon {
+    color: #3B82F6;
+  }
+  /* Footer*/
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #737373;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: grid;
+    gap: 30px;
+  }
+  
+  .social-icons {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 40px;
+    justify-content: start;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  
+  .footer-grid p {
+    margin: 5px 0;
+  }
+  .footer-grid p:hover{
+    text-decoration: underline;
+  }
+  
+  .service-code {
+    width: fit-content;
+    padding: 5px 12px;
+    font-size: 13px;
+    background-color: transparent;
+    color: #737373;
+    border: 1px solid #737373;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .service-code:hover {
+    color: white;
+  }
+  
+  .copyright {
+    font-size: 13px;
+  }
+  
+ 
