@@ -3,8 +3,7 @@ Web Design and Development Projects
 
 :OUTPUTS:
 
-Output for Tables:
-URL:https://raw.githack.com/EngrFatimaKhawaja/Web-Design-and-Development/main/tables/index.html
+
 
  Task 2: Create A Web Page
  URL:https://raw.githack.com/EngrFatimaKhawaja/Web-Design-and-Development/main/Task%202/index.html
